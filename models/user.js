@@ -1,3 +1,5 @@
+const md5 = requirce('md5');
+
 class User {
   construct(username, email, plainPassword) {
     this.username = username;
