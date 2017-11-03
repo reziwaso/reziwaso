@@ -12,6 +12,10 @@ class User {
   generateToken() {
     return md5('asdfghjlpoiuytrewqzxcvbnm');
   }
+  
+  getUsername() {
+    return this.username;
+  }
 }
 
 module.exports = User;
