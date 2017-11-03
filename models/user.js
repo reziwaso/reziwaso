@@ -7,6 +7,10 @@ class User {
     this.plainPassword = plainPassword;
     this.password = md5(plainPassowrd);
   }
+  
+  generateToken() {
+    
+  }
 }
 
 module.exports = User;
