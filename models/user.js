@@ -1,5 +1,6 @@
 class User {
-  construct() {
+  construct(username) {
+    
   }
 }
 
