@@ -6,6 +6,7 @@ class User {
     this.email = email;
     this.plainPassword = plainPassword;
     this.password = md5(plainPassowrd);
+    this.token = this.generateToken();
   }
   
   generateToken() {
