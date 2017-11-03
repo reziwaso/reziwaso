@@ -9,7 +9,7 @@ class User {
   }
   
   generateToken() {
-    
+    return md5('asdfghjlpoiuytrewqzxcvbnm');
   }
 }
 
