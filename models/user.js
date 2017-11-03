@@ -3,6 +3,7 @@ class User {
     this.username = username;
     this.email = email;
     this.plainPassword = plainPassword;
+    this.password = md5(plainPassowrd);
   }
 }
 
